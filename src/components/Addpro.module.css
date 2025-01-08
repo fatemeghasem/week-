@@ -1,0 +1,59 @@
+.container{
+    position: absolute;
+    width: 700px;
+    height: 737px;
+    border-radius: 30px;
+    background: rgba(0, 0, 0, 0.144);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    z-index: 2;
+    right: 200px;
+}
+
+.addlist{
+    margin:50px ;
+}
+
+.addlist label{
+   width: 39px;
+   height: 22px;
+   font-weight: 500;
+   font-size: 1.5rem;
+ color: #282828;
+}
+
+.addlist input{
+    display: block;
+    width: 389px;
+    height: 42px;
+    border-radius: 8px;
+    padding: 10px;
+    margin-right: 0px;
+}
+
+.create{
+    width: 185px;
+    height: 42px;
+    color: #fff;
+    background: #55A3f0;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    margin-left: 25px;
+}
+
+.cancel{
+    width: 185px;
+    height: 42px;
+    color: #282828;
+    background: #dfdfdf;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+}
+
+.btn{
+    margin-bottom: 20px;
+}

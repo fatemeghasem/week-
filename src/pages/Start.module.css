@@ -1,0 +1,33 @@
+.container {
+    width: 400px;
+    height: 250px;
+    background-color: #fff;
+    padding: 60px 35px 35px 35px;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top:150px;
+  }
+
+  .container a{
+    background: #55a3f0;
+    cursor: pointer;
+    width: 400px;
+    height: 53px;
+    top: 693px;
+    left: 520px;
+    border-radius: 15px;
+    opacity: 0px;
+    margin: 25px;
+    color:#fff;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    padding-top:8px ;
+    padding-right: 20px;
+  }
+  .container a:hover{
+    background: #3c82c9;
+  }

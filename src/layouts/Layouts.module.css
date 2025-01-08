@@ -1,0 +1,117 @@
+.container{
+  width: 1147px;
+  position: relative;
+}
+
+.container input {
+  width:85%;
+  height: 68px;
+  outline: none;
+  margin: 28px 150px;
+  border-radius: 16px;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border: none;
+  position: relative;
+  font-size: 1.5rem;
+  margin-left: 0px;
+}
+
+.toplayout {
+  display: flex;
+}
+
+.toplayout p {
+  width: 15%;
+  height: 50px;
+  background: #fff;
+  margin-top: 28px;
+  border-top-left-radius: 16px;
+  border-bottom-left-radius: 16px;
+  margin-left: 148px;
+  text-align:center;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.toplayout div{
+  width: 2px ;
+  color: #282828;
+  height: 68px;
+}
+
+.searchtext {
+  position: absolute;
+  margin: 40px 190px;
+  z-index: 2;
+  color: #818488;
+  display: flex;
+}
+
+.searchsvg {
+  margin-top: 13px;
+  margin-left: 10px;
+  width: 24px;
+  height: 24px;
+  color: #282828;
+}
+
+body {
+  background: #e4e4e4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  direction: rtl;
+}
+
+.end{
+  border-radius: 16px;
+  width: 75%;
+  margin: 28px 140px;
+  height: 68px;
+  background: rgb(217, 201, 233);
+  color: #fff;
+  font-weight: 500;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 0;
+  position: relative;
+}
+
+.manegment {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0px 150px;
+}
+
+.manegment button {
+  width: 132px;
+  height: 45px;
+  border-radius: 10px;
+  padding: 10px;
+  background: #55a3f0;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+.manegment button:hover {
+  background: #4999e9;
+}
+
+.manegmentsvg {
+  display: flex;
+}
+.svg {
+  position: relative;
+  bottom: -15px;
+  margin-left: 20px;
+  width: 30px;
+  height: 30px;
+}
+.manegmentsvg h1 {
+  font-size: 24px;
+}
